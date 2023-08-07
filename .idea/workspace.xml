@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467917b0-d825-4d0b-8bc3-42c0ec50935e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/main-scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/main-scene.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/svgtopng/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/svgtopng/Logo_&amp;_Nome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/svgtopng/Logo_&amp;_Nome_Reverse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/svgtopng/Logo_Reverse.png" beforeDir="false" />
-    </list>
+    <list default="true" id="467917b0-d825-4d0b-8bc3-42c0ec50935e" name="Changes" comment="tentativa de criar uma classe midia" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,9 +62,31 @@
       <option name="presentableId" value="Default" />
       <updated>1691281416646</updated>
     </task>
+    <task id="LOCAL-00001" summary="tentativa de criar uma classe midia">
+      <option name="closed" value="true" />
+      <created>1691386522521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691386522521</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="tentativa de criar uma classe midia" />
+    <option name="LAST_COMMIT_MESSAGE" value="tentativa de criar uma classe midia" />
   </component>
 </project>
