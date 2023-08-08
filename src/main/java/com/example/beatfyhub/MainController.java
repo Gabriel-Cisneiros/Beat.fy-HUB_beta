@@ -62,10 +62,10 @@ public class MainController implements Initializable{
             }
         }
 
-        media = new Media(songs.get(songNumber).toURI().toString());
-        mediaPlayer = new MediaPlayer(media);
-
-        mediaNameLabel.setText(songs.get(songNumber).getName());
+//        media = new Media(songs.get(songNumber).toURI().toString());
+//        mediaPlayer = new MediaPlayer(media);
+//
+//        mediaNameLabel.setText(songs.get(songNumber).getName());
 
     }
 

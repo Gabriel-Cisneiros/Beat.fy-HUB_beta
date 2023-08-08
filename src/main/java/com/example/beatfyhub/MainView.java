@@ -2,6 +2,7 @@ package com.example.beatfyhub;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
@@ -11,13 +12,11 @@ import java.io.IOException;
 public class MainView extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(MainView.class.getResource("main-scene.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 810, 545);
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/sample.fxml"));
+        stage.setScene(new Scene(root));
         stage.setTitle("Beat.fy HUB");
-        Image icon = new Image("Logo_Reverse.png");
-        stage.setResizable(false);
+        Image icon = new Image("images/Logo_Reverse.png");
         stage.getIcons().add(icon);
-        stage.setScene(scene);
         stage.show();
     }
 

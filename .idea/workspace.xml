@@ -4,14 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467917b0-d825-4d0b-8bc3-42c0ec50935e" name="Changes" comment="tentativa de criar uma classe midia" />
+    <list default="true" id="467917b0-d825-4d0b-8bc3-42c0ec50935e" name="Changes" comment="tentativa de criar uma classe midia">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/fxml/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bolsonaro presi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_browse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_devices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_forward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_playlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_repeat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_shuffle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_skip_to_start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/ic_volume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/music/Here_Comes_The_Sun_Remastered_2009MP3_160K.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/music/With_A_Little_Help_From_My_FriendsMP3_320K.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/music/Yesterday_Remastered_2009MP3_320K.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/java/com/example/beatfyhub/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/java/com/example/beatfyhub/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/Logo_&amp;_Nome.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/Logo_&amp;_Nome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/Logo_&amp;_Nome_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/Logo_&amp;_Nome_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/Logo_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/Logo_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/com/example/beatfyhub/main-scene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/src/main/resources/com/example/beatfyhub/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/Logo_&amp;_Nome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/Logo_&amp;_Nome_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/Logo_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/com/example/beatfyhub/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/com/example/beatfyhub/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/com/example/beatfyhub/main-scene.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Beat-fy-HUB/target/classes/com/example/beatfyhub/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Logo_&amp;_Nome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Logo_&amp;_Nome_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Logo_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/main-scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/fxml/main-scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -24,23 +83,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "/home/gabriel/IdeaProjects/Projeto-MP3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gabriel/IdeaProjects/Spotify-Design&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/fxml" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/beatfyhub" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691386522521</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tentativa de criar uma classe midia">
+      <option name="closed" value="true" />
+      <created>1691386998909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691386998909</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tentativa de criar uma classe midia">
+      <option name="closed" value="true" />
+      <created>1691387739483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691387739483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
