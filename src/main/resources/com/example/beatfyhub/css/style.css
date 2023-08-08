@@ -20,3 +20,7 @@
 .scroll-pane > .viewport{
     -fx-background-color: #181818;
 }
+.navbar-button {
+    -fx-alignment: center-left;
+    -fx-background-color: transparent;
+}
