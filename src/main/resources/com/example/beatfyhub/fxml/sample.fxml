@@ -267,9 +267,9 @@
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0">
                <children>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../../images/7175Rezd2EL._AC_SL1500_.jpg" />
-                     </image>
+<!--                     <image>-->
+<!--                        <Image url="@../../../../images/7175Rezd2EL._AC_SL1500_.jpg" />-->
+<!--                     </image>-->
                   </ImageView>
                   <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="217.0">
                      <children>
