@@ -4,32 +4,84 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
+import java.awt.event.MouseEvent;
+
 public class MainController {
 
     @FXML
-    private Button navbarButton1, navbarButton2, navbarButton3, navbarButton4;
-
+    private Button moreButton, homeButton, exploreButton, recentButton, ftbButton, likedButton, artistsButton, albumsButton, loginButton;
     @FXML
-    protected void initialize() {
-        navbarButton1.setOnAction(this::handleNavbarButton1Click);
-    }
-    @FXML
-    private void handleNavbarButton1Click(ActionEvent event) {
-        System.out.println("Botão Navbar 1 clicado!");
+    private void moreButtonClick(ActionEvent event){
+        System.out.println("botão more clicado");
     }
 
     @FXML
-    private void handleNavbarButton2Click(ActionEvent event) {
-        System.out.println("Botão Navbar 2 clicado!");
+    private void homeButtonClick(ActionEvent event){
+        System.out.println("botão home clicado");
     }
 
     @FXML
-    private void handleNavbarButton3Click(ActionEvent event) {
-        System.out.println("Botão Navbar 3 clicado!");
+    private void exploreButtonClick(ActionEvent event){
+        System.out.println("botão explore clicado");
     }
 
     @FXML
-    private void handleNavbarButton4Click(ActionEvent event) {
-        System.out.println("Botão Navbar 4 clicado!");
+    private void recentButtonClick(ActionEvent event){
+        System.out.println("botão recent played clicado");
+    }
+
+    @FXML
+    private void ftbButtonClick(ActionEvent event){
+        System.out.println("botão feel the beat clicado");
+    }
+
+    @FXML
+    private void likedButtonClick(ActionEvent event){
+        System.out.println("botão liked clicado");
+    }
+
+    @FXML
+    private void artistsButtonClick(ActionEvent event){
+        System.out.println("botão artists clicado");
+    }
+
+    @FXML
+    private void albumsButtonClick(ActionEvent event){
+        System.out.println("botão albums clicado");
+    }
+
+    @FXML
+    private void loginButtonClick(ActionEvent event){
+        System.out.println("botão login spotify clicado");
+    }
+
+    @FXML
+    private void favoriteMedia(){
+        System.out.println("media favoritada");
+    }
+
+    @FXML
+    private void shuffleMedia(){
+        System.out.println("modo aleatorio");
+    }
+
+    @FXML
+    private void previousMedia(){
+        System.out.println("media anterior");
+    }
+
+    @FXML
+    private void playMedia(){
+        System.out.println("media tocando");
+    }
+
+    @FXML
+    private void nextMedia(){
+        System.out.println("proxima media");
+    }
+
+    @FXML
+    private void loopMedia(){
+        System.out.println("modo loop");
     }
 }

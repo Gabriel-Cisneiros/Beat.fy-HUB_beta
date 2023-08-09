@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467917b0-d825-4d0b-8bc3-42c0ec50935e" name="Changes" comment="front-end base finalizado">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/arrow_back_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/arrow_forward_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/expand_more_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/explore_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/history_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/home_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/library_add_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/login_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/pause_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/play_arrow_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/repeat_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/repeat_on_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/search_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shuffle_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/shuffle_on_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/skip_next_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/skip_previous_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/star_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/star_FILL1_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/volume_down_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/volume_mute_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/volume_up_FILL0_wght400_GRAD0_opsz48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beatfyhub/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/fxml/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/beatfyhub/fxml/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_browse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_devices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_love.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_playlist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_radio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_repeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_shuffle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_skip_to_start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/ic_volume.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691468445887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="front-end base finalizado">
+      <option name="closed" value="true" />
+      <created>1691468491151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691468491151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -8,66 +8,68 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1315.0" styleClass="primary-color" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1315.0" styleClass="primary-color" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beatfyhub.MainController">
    <left>
       <VBox prefHeight="200.0" prefWidth="235.0" spacing="20.0" styleClass="secondary-color" stylesheets="@../css/style.css" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../images/ic_more.png" />
-               </image>
-               <VBox.margin>
-                  <Insets left="10.0" />
-               </VBox.margin>
-            </ImageView>
-            <VBox prefHeight="162.0" prefWidth="235.0" stylesheets="@../css/style.css">
+            <Button fx:id="moreButton" mnemonicParsing="false" onAction="#moreButtonClick" prefHeight="122.0" prefWidth="60.0" styleClass="navbar-button" stylesheets="@../css/style.css">
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/expand_more_FILL0_wght400_GRAD0_opsz48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <VBox prefHeight="227.0" prefWidth="235.0" stylesheets="@../css/style.css">
                <children>
                   <VBox prefHeight="152.0" prefWidth="235.0" spacing="10.0">
                      <children>
-                        <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="235.0" spacing="20.0" styleClass="selected" stylesheets="@../css/style.css">
+                        <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="235.0" spacing="20.0">
                            <children>
                               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../images/ic_home.png" />
+                                    <Image url="@../../../../images/home_FILL0_wght400_GRAD0_opsz48.png" />
                                  </image>
                               </ImageView>
-                              <Label text="Home" textFill="WHITE">
+                              <Button fx:id="homeButton" mnemonicParsing="false" onAction="#homeButtonClick" prefHeight="33.0" prefWidth="178.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Home" textFill="#8a1cff">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
-                              </Label>
+                              </Button>
                            </children>
                            <VBox.margin>
                               <Insets />
                            </VBox.margin>
                            <padding>
-                              <Insets left="10.0" />
+                              <Insets left="15.0" />
                            </padding>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
                            <children>
                               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../images/ic_browse.png" />
+                                    <Image url="@../../../../images/explore_FILL0_wght400_GRAD0_opsz48.png" />
                                  </image>
                                  <HBox.margin>
                                     <Insets top="5.0" />
                                  </HBox.margin>
                               </ImageView>
-                              <Label text="Explore" textFill="WHITE">
+                              <Button fx:id="exploreButton" mnemonicParsing="false" onAction="#exploreButtonClick" prefHeight="33.0" prefWidth="170.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Explore" textFill="#8a1cff">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
-                                 <padding>
-                                    <Insets top="5.0" />
-                                 </padding>
-                              </Label>
+                              </Button>
                            </children>
                            <padding>
                               <Insets left="15.0" />
@@ -77,20 +79,17 @@
                            <children>
                               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../images/ic_add.png" />
+                                    <Image url="@../../../../images/history_FILL0_wght400_GRAD0_opsz48.png" />
                                  </image>
                                  <HBox.margin>
                                     <Insets top="-5.0" />
                                  </HBox.margin>
                               </ImageView>
-                              <Label text="Recent played" textFill="WHITE">
+                              <Button fx:id="recentButton" mnemonicParsing="false" onAction="#recentButtonClick" prefHeight="30.0" prefWidth="178.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Recent Played" textFill="#8a1cff">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
-                                 <HBox.margin>
-                                    <Insets top="-5.0" />
-                                 </HBox.margin>
-                              </Label>
+                              </Button>
                            </children>
                            <VBox.margin>
                               <Insets />
@@ -105,7 +104,7 @@
             </VBox>
             <VBox prefHeight="194.0" prefWidth="195.0">
                <children>
-                  <Label text="YOUR LIBRARY" textFill="WHITE">
+                  <Label text="YOUR LIBRARY" textFill="#8a1cff">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -113,38 +112,26 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </padding>
                   </Label>
-                  <Label prefHeight="41.0" prefWidth="167.0" text="Feel the Beat" textFill="WHITE">
+                  <Button fx:id="ftbButton" mnemonicParsing="false" onAction="#ftbButtonClick" prefHeight="42.0" prefWidth="195.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Feel The Beat" textFill="#c997ff">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
-                     <padding>
-                        <Insets left="10.0" right="10.0" />
-                     </padding>
-                  </Label>
-                  <Label prefHeight="41.0" prefWidth="213.0" text="Liked songs" textFill="WHITE">
+                  </Button>
+                  <Button fx:id="likedButton" mnemonicParsing="false" onAction="#likedButtonClick" prefHeight="42.0" prefWidth="195.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Liked Songs" textFill="#c997ff">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
-                     <padding>
-                        <Insets left="10.0" right="10.0" />
-                     </padding>
-                  </Label>
-                  <Label prefHeight="41.0" prefWidth="95.0" text="Albuns" textFill="WHITE">
+                  </Button>
+                  <Button fx:id="artistsButton" mnemonicParsing="false" onAction="#artistsButtonClick" prefHeight="42.0" prefWidth="195.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Artists" textFill="#c997ff">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
-                     <padding>
-                        <Insets left="10.0" right="10.0" />
-                     </padding>
-                  </Label>
-                  <Label prefHeight="41.0" prefWidth="95.0" text="Artists" textFill="WHITE">
+                  </Button>
+                  <Button fx:id="albumsButton" mnemonicParsing="false" onAction="#albumsButtonClick" prefHeight="42.0" prefWidth="195.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Albums" textFill="#c997ff">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
-                     <padding>
-                        <Insets left="10.0" right="10.0" />
-                     </padding>
-                  </Label>
+                  </Button>
                </children>
                <opaqueInsets>
                   <Insets />
@@ -153,7 +140,7 @@
                   <Insets left="20.0" right="20.0" />
                </VBox.margin>
             </VBox>
-            <Label text="PLAYLISTS" textFill="WHITE">
+            <Label text="PLAYLISTS" textFill="#8a1cff">
                <font>
                   <Font size="18.0" />
                </font>
@@ -164,15 +151,22 @@
                   <Insets left="20.0" right="20.0" />
                </VBox.margin>
             </Label>
-            <Pane prefHeight="147.0" prefWidth="235.0" VBox.vgrow="ALWAYS" />
-            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="top-border" stylesheets="@../css/style.css">
+            <Pane prefHeight="147.0" prefWidth="235.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <ScrollPane layoutX="-2.0" layoutY="-1.0" prefHeight="86.0" prefWidth="238.0" style="-fx-background-color: trasnparent;">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="494.0" prefWidth="222.0" styleClass="secondary-color" stylesheets="@../css/style.css" />
+                    </content>
+                  </ScrollPane>
+               </children></Pane>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="235.0" styleClass="top-border" stylesheets="@../css/style.css">
                <children>
                   <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../images/ic_add.png" />
+                        <Image url="@../../../../images/library_add_FILL0_wght400_GRAD0_opsz48.png" />
                      </image>
                   </ImageView>
-                  <Label alignment="TOP_LEFT" text="New Playlist" textFill="WHITE">
+                  <Label alignment="TOP_LEFT" text="New Playlist" textFill="#8a1cff">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
@@ -196,36 +190,35 @@
          <children>
             <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="1080.0">
                <children>
-                  <Button mnemonicParsing="false" style="-fx-background-color: transparent;">
-                     <graphic>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../../images/ic_back.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <Button mnemonicParsing="false" style="-fx-background-color: transparent;">
-                     <graphic>
-                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../../../../images/ic_forward.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                  </Button>
-                  <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="215.0" styleClass="search-container" stylesheets="@../css/style.css">
+                  <Button mnemonicParsing="false" style="-fx-background-color: transparent;" />
+                  <HBox maxHeight="-Infinity" prefHeight="35.0" prefWidth="357.0" styleClass="search-container" stylesheets="@../css/style.css">
                      <children>
                         <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_search.png" />
+                              <Image url="@../../../../images/search_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
-                        <TextField prefHeight="55.0" prefWidth="171.0" promptText="Search" style="-fx-background-color: transparent;" />
+                        <TextField prefHeight="29.0" prefWidth="199.0" promptText="Search" style="-fx-background-color: transparent;" />
                      </children>
                      <padding>
                         <Insets top="6.0" />
                      </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="33.0" prefWidth="824.0">
+                     <children>
+                        <Button fx:id="loginButton" mnemonicParsing="false" onAction="#loginButtonClick" prefHeight="48.0" prefWidth="260.0" styleClass="navbar-button" stylesheets="@../css/style.css" text="Login With Spotify" textFill="#8a1cff">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="36.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../images/login_FILL0_wght400_GRAD0_opsz48.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
                   </HBox>
                </children>
             </HBox>
@@ -240,20 +233,29 @@
             </VBox>
             <ScrollPane prefHeight="591.0" prefWidth="1080.0" style="-fx-background-color: transparent;">
                <content>
-                  <VBox prefHeight="591.0" prefWidth="1063.0">
+                  <VBox prefHeight="794.0" prefWidth="1064.0">
                      <children>
-                        <ScrollPane layoutX="10.0" layoutY="10.0" minViewportHeight="245.0" minViewportWidth="1040.0" prefHeight="591.0" prefWidth="1115.0" style="-fx-background-color: transparent;" VBox.vgrow="ALWAYS">
-                           <content>
-                              <Label contentDisplay="CENTER" prefHeight="38.0" prefWidth="206.0" text="Playlists" textFill="WHITE">
+                        <Pane prefHeight="54.0" prefWidth="1064.0">
+                           <children>
+                              <Label layoutX="22.0" layoutY="-2.0" prefHeight="52.0" prefWidth="107.0" text="My Songs" textFill="#8a1cff">
                                  <font>
                                     <Font name="System Bold" size="18.0" />
                                  </font>
-                                 <padding>
-                                    <Insets left="20.0" />
-                                 </padding>
                               </Label>
-                           </content>
-                        </ScrollPane>
+                           </children>
+                        </Pane>
+                        <GridPane prefHeight="750.0" prefWidth="1064.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
                      </children>
                   </VBox>
                </content>
@@ -262,8 +264,9 @@
       </VBox>
    </center>
    <bottom>
-      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #c997ff; -fx-border-radius: 10px;" BorderPane.alignment="CENTER">
          <children>
+            <Pane prefHeight="100.0" prefWidth="24.0" HBox.hgrow="ALWAYS" />
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="380.0">
                <children>
                   <ImageView fitHeight="70.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
@@ -273,21 +276,21 @@
                   </ImageView>
                   <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="217.0">
                      <children>
-                        <Label prefHeight="27.0" prefWidth="242.0" text="Change" textFill="WHITE">
+                        <Label prefHeight="27.0" prefWidth="242.0" text="Music name" textFill="#8a1cff">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Label>
-                        <Label layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="242.0" text="Louis Tomlison" textFill="WHITE">
+                        <Label layoutX="10.0" layoutY="10.0" prefHeight="27.0" prefWidth="242.0" text="Music Artist" textFill="#a869eb">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Label>
                      </children>
                   </VBox>
-                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="favoriteButton" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#favoriteMedia" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../images/ic_love.png" />
+                        <Image url="@../../../../images/star_FILL0_wght400_GRAD0_opsz48.png" />
                      </image>
                      <HBox.margin>
                         <Insets left="-20.0" top="-15.0" />
@@ -295,34 +298,33 @@
                   </ImageView>
                </children>
             </HBox>
-            <Pane prefHeight="100.0" prefWidth="24.0" HBox.hgrow="ALWAYS" />
             <VBox prefHeight="100.0" prefWidth="722.0">
                <children>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
                      <children>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="shuffleButton" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#shuffleMedia" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_shuffle.png" />
+                              <Image url="@../../../../images/shuffle_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="previousButton" fitHeight="30.0" fitWidth="30.0" onMouseClicked="#previousMedia" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_skip_to_start.png" />
+                              <Image url="@../../../../images/skip_previous_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="40.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="playButton" fitHeight="45.0" fitWidth="45.0" layoutX="40.0" layoutY="10.0" onMouseClicked="#playMedia" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_play.png" />
+                              <Image url="@../../../../images/play_arrow_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="71.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="nextButton" fitHeight="30.0" fitWidth="30.0" layoutX="71.0" layoutY="10.0" onMouseClicked="#nextMedia" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_end.png" />
+                              <Image url="@../../../../images/skip_next_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="101.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="loopButton" fitHeight="30.0" fitWidth="30.0" layoutX="101.0" layoutY="10.0" onMouseClicked="#loopMedia" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../images/ic_repeat.png" />
+                              <Image url="@../../../../images/repeat_FILL0_wght400_GRAD0_opsz48.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -343,7 +345,7 @@
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Slider HBox.hgrow="ALWAYS">
+                        <Slider stylesheets="@../css/slider.css" HBox.hgrow="ALWAYS">
                            <padding>
                               <Insets top="-30.0" />
                            </padding>
@@ -351,7 +353,7 @@
                               <Insets left="5.0" />
                            </HBox.margin>
                         </Slider>
-                        <Label layoutX="10.0" layoutY="10.0" text="04;42" textFill="WHITE">
+                        <Label layoutX="10.0" layoutY="10.0" text="00:00" textFill="WHITE">
                            <padding>
                               <Insets top="-30.0" />
                            </padding>
@@ -365,14 +367,18 @@
             </VBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="217.0">
                <children>
-                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../images/ic_volume.png" />
+                        <Image url="@../../../../images/volume_down_FILL0_wght400_GRAD0_opsz48.png" />
                      </image>
                   </ImageView>
+                  <Slider prefHeight="16.0" prefWidth="108.0" stylesheets="@../css/slider.css" />
                </children>
             </HBox>
          </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
       </HBox>
    </bottom>
 </BorderPane>
